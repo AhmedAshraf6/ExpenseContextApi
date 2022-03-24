@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.form {
+  width: 50%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.historylist {
+  width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 900px) {
+  .form {
+    width: 90%;
+  }
+  .historylist {
+    width: 90%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control:focus {
+  box-shadow: none;
 }
-
-.App-link {
-  color: #61dafb;
+.btn:focus {
+  box-shadow: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-info:active:focus {
+  box-shadow: none;
 }
+/* Start History */
+.historylist .card {
+  border: none;
+}
+.historylist .card-body.danger {
+  border: none;
+  border-bottom: 3px solid #dee2e6;
+  border-right: 4px solid #dc3545;
+}
+.historylist .card-body.green {
+  border: none;
+  border-bottom: 3px solid #dee2e6;
+  border-right: 4px solid #198754;
+}
+.close {
+  position: relative;
+  top: 50px;
+  right: 22px;
+  background-color: #dc3545;
+  padding: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+/* End History */
+
+/* Start Info Component */
+.info.card {
+  width: 50%;
+}
+.info.card .danger {
+  color: #dc3545;
+}
+.info.card .green {
+  color: #198754;
+}
+/* Start Info Component */
