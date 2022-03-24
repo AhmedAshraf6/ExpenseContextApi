@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ExpenseContextApi/static/css/main.1ec84501.css",
+    "main.js": "/ExpenseContextApi/static/js/main.4e0a10da.js",
+    "index.html": "/ExpenseContextApi/index.html",
+    "main.1ec84501.css.map": "/ExpenseContextApi/static/css/main.1ec84501.css.map",
+    "main.4e0a10da.js.map": "/ExpenseContextApi/static/js/main.4e0a10da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec84501.css",
+    "static/js/main.4e0a10da.js"
+  ]
+}
